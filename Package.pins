@@ -1,0 +1,18 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "FileSystemWatcher",
+      "reason": null,
+      "repositoryURL": "https://github.com/felix91gr/FileSystemWatcher.git",
+      "version": "1.0.2"
+    },
+    {
+      "package": "inotify",
+      "reason": null,
+      "repositoryURL": "https://github.com/Ponyboy47/inotify.git",
+      "version": "1.0.1"
+    }
+  ],
+  "version": 1
+}
