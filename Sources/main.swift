@@ -15,7 +15,9 @@ func printEvent(event: FileSystemEvent) {
 
 print("Starting!")
 
-let myWatcher = FileSystemWatcher()
+let delayBetweenEvents = 5.0
+
+let myWatcher = FileSystemWatcher(deferringDelay: delayBetweenEvents)
 
 myWatcher.watch(
 	paths: ["/tmp"], 
